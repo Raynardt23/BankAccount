@@ -70,7 +70,7 @@ public class BankAccount {
 
         if (balance < amount) {
 
-            throw new IllegalArgumentException("Insufficient funds:\n Available balance " + getBalance());
+            throw new IllegalArgumentException("Insufficient funds:\nAvailable balance " + getBalance());
 
         }
 
